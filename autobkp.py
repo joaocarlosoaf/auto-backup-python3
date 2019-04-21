@@ -97,7 +97,7 @@ def startBackup():
         saveLog('Copy file log is complete')
 
         # Remove backup local
-        md5_value_file = execCmdBash('rm ' + _bd_path_file_bkp + _bd_file_bkp + '.gz')
+        execCmdBash('rm ' + _bd_path_file_bkp + _bd_file_bkp + '.gz')
         saveLog('Remove temp backup file')
 
         # Send email notification
