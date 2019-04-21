@@ -16,16 +16,16 @@ Pre requisitos:
 
 E setar as variaveis de configuração:
 
-## Usuário do sistema
+## System user (local)
 _user_so = ''
 
-## Hora da scheduler
+## Hora da scheduler (local)
 _time_scheduler = ''
 
-## log file
+## Local log file (local)
 _path_log = '/home/' + _user_so + '/bkp/'
 
-## Parâmetros do Banco 
+## Database parameters (local)
 _bd_file_bkp = ''
 
 _bd_path_file_bkp = '/home/' + _user_so + '/bkp/'
@@ -36,7 +36,7 @@ _bd_database = ''
 
 _bd_user = ''
 
-## SCP parametros
+## SCP parameters (remote)
 _scp_host = ''
 
 _scp_port = ''
@@ -47,7 +47,7 @@ _scp_pssw = ''
 
 _scp_path = ''
 
-## Configuração SMTP
+## Configuration SMTP 
 _smpt_server = ''
 
 _smtp_email = ''
