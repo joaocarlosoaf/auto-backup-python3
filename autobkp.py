@@ -19,7 +19,7 @@ _time_scheduler = '00:00'
 _path_log = '/home/' + _user_so + '/bkp-service/'
 
 ## Parâmetros do Banco 
-_bd_file_bkp = 'sigitr_bkp'
+_bd_file_bkp = ''
 _bd_path_file_bkp = '/home/' + _user_so + '/bkp-service/'
 _bd_host =  '127.0.0.1'
 _bd_database = ''
