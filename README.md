@@ -27,22 +27,35 @@ _path_log = '/home/' + _user_so + '/bkp/'
 
 ## Parâmetros do Banco 
 _bd_file_bkp = ''
+
 _bd_path_file_bkp = '/home/' + _user_so + '/bkp/'
+
 _bd_host =  '127.0.0.1'
+
 _bd_database = ''
+
 _bd_user = ''
 
 ## SCP parametros
-_scp_host = '
+_scp_host = ''
+
 _scp_port = ''
+
 _scp_user = ''
+
 _scp_pssw = ''
+
 _scp_path = ''
 
 ## Configuração SMTP
 _smpt_server = ''
+
 _smtp_email = ''
+
 _smtp_pssw = ''
+
 _smtp_port = 587
+
 _smtp_to_email = ''
+
 _smpt_tittle_email = 'Backup Log'
