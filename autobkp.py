@@ -85,7 +85,7 @@ def startBackup():
         saveLog('File backup create')
 
         # Generate MD5 of file
-        md5_value_file = execCmdBash('md5sum ' + _bd_file_bkp + '.gz')
+        md5_value_file = execCmdBash('md5sum ' + _bd_path_file_bkp + _bd_file_bkp + '.gz')
         saveLog('md5 file backup -> ' + md5_value_file)
 
         # Copy backup with SCP
